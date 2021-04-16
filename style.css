@@ -1,0 +1,565 @@
+/*Header*/
+
+/*Logo*/
+
+img {
+  max-width: 100%;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-brand {
+  display: block;
+  width: 400px;
+}
+
+/*Icones*/
+
+.linkedin {
+  width: 30px;
+  padding: 5px;
+  width: 20%;
+  height: 20%;
+
+  transition: 0.3s;
+}
+
+.linkedin:hover {
+  transform: scale(1.2);
+}
+
+.youtube {
+  width: 30px;
+  padding: 5px;
+  width: 20%;
+  height: 20%;
+
+  transition: 0.3s;
+}
+
+.youtube:hover {
+  transform: scale(1.2);
+}
+
+.mail {
+  width: 30px;
+  padding: 5px;
+  width: 20%;
+  height: 20%;
+
+  transition: 0.3s;
+}
+
+.mail:hover {
+  transform: scale(1.2);
+}
+
+/*Body*/
+body {
+  margin: 0px;
+}
+
+/*Slide*/
+
+.slide {
+  width: 100%;
+  height: 100%;
+
+  align-items: center;
+}
+
+button {
+  border: none;
+}
+
+/*Call-To-Action*/
+
+.bloc {
+  font-family: "Nunito";
+  background-color: #0a2ffe;
+  color: white;
+
+  padding: 1em;
+  margin-top: -4.75px;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+
+  font-size: 30px;
+  text-align: center;
+}
+
+.sentence {
+  margin-top: 0;
+}
+
+.button {
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.65);
+  border-radius: 1em;
+  border: none;
+  margin: 1em auto;
+  padding: 1em 1.5em;
+  background-color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Soleil";
+
+  transition: 0.3s ease-in-out;
+}
+
+.answer {
+  border: none;
+  color: #0a2ffe;
+  border: white;
+  border-radius: 1em auto;
+
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.65);
+  margin: 3em;
+  padding: 1em 1.5em;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-family: "Pt Sans";
+  font-weight: bold;
+
+  transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #e5580f;
+  transform: scale(1.2);
+}
+
+/*Abilities*/
+
+section {
+  margin-top: 3em;
+}
+
+.first {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 30px;
+  clear: both;
+}
+
+.second {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-top: 30px;
+  clear: both;
+}
+
+.locate {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 20px;
+  margin-left: 1em;
+  padding-bottom: 50px;
+}
+
+.customer {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-right: 20px;
+  margin-left: 1em;
+  padding-bottom: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Nunito";
+  color: #0a2ffe;
+}
+
+p {
+  font-family: "Nunito";
+  font-size: 20px;
+  overflow: hidden;
+}
+
+/*Record*/
+
+.box {
+  text-align: center;
+  padding: 1em;
+  font-size: 20px;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  font-family: "Nunito";
+  color: #0a2ffe;
+}
+
+.say {
+  font-size: 30px;
+  font-style: italic;
+}
+
+/*Projets*/
+
+.site-projects {
+  font-family: "Nunito";
+
+  color: black;
+
+  padding: 1em;
+  margin-top: 2em;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.projects-title {
+  font-size: 30px;
+}
+
+.hidden {
+  height: 30%;
+  width: 30%;
+
+  padding: 1em;
+}
+
+.button-projects {
+  color: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.65);
+  background-color: #e5580f;
+
+  border-radius: 1em;
+  border: none;
+
+  margin: 1em auto;
+  padding: 1em 1.5em;
+
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Soleil";
+
+  transition: 0.3s ease-in-out;
+}
+
+.button-projects:hover {
+  transform: scale(1.2);
+
+  background-color: #0a2ffe;
+  color: white;
+}
+
+/*Footer*/
+
+/*Call-to-action*/
+
+.call-box {
+  background-color: #e5580f;
+  text-align: center;
+  font-family: "Soleil";
+  padding: 1em;
+  padding-bottom: 2em;
+}
+.meet {
+  color: white;
+  font-size: 60px;
+}
+
+.answer {
+  color: #0a2ffe;
+  border: white;
+  border-radius: 1em;
+
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.65);
+  margin: 2em;
+  padding: 1em 1.5em;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-family: "Pt Sans";
+  font-weight: bold;
+
+  transition: 0.3s ease-in-out;
+}
+
+.answer:hover {
+  color: #ffffff;
+  background-color: #0a2ffe;
+  transform: scale(1.2);
+  border: #0a2ffe;
+}
+
+/*Media Queries*/
+
+/*1100px to 740px*/
+
+@media screen and (max-width: 1100px) and (min-width: 850px) {
+  .body {
+    display: block;
+  }
+  .bloc {
+    width: 100%;
+    display: block;
+    position: static;
+  }
+  .sentence {
+    overflow: hidden;
+    padding-top: 0;
+    font-size: 30px;
+  }
+
+  .button {
+    font-size: 65%;
+  }
+
+  .first {
+    margin-left: 2em;
+  }
+
+  .second {
+    margin-right: 2em;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+
+  .button-projects {
+    font-size: 12px;
+  }
+
+  .say {
+    font-size: 27px;
+  }
+
+  .name {
+    font-size: 35px;
+  }
+
+  .meet {
+    font-size: 50px;
+  }
+
+  .answer {
+    font-size: 90%;
+  }
+}
+/*850 to 525*/
+
+@media screen and (max-width: 850px) and (min-width: 525px) {
+  .sentence {
+    padding-top: 0;
+    font-size: 22px;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+
+  .bloc {
+    padding: 0.7em;
+  }
+
+  .first {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .second {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  
+
+  .projects-title {
+    font-size: 25px;
+  }
+
+  .projects-pictures {
+        text-align: center;
+    }
+
+
+  .button-projects {
+    font-size: 12px;
+  }
+
+  .say {
+    font-size: 21px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .answer {
+    font-size: 90%;
+  }
+
+  .meet {
+    font-size: 37px;
+  }
+}
+
+/*525 to 300*/
+
+@media screen and (max-width: 525px) and (min-width: 300px) {
+  .sentence {
+    padding-top: 0;
+    font-size: 15px;
+  }
+  .bloc {
+    padding: 0.3em;
+  }
+
+  .button {
+    font-size: 30%;
+  }
+
+  .first {
+    margin-left: 1em;
+
+    text-align: center;
+  }
+
+  .second {
+    text-align: center;
+    margin-right: 1em;
+  }
+
+  .locate {
+    float: none;
+    width: 60%;
+  }
+
+  .customer {
+    float: none;
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .projects-title {
+    font-size: 15px;
+  }
+
+  .say {
+    font-size: 17px;
+  }
+  .hidden {
+    width: 70%;
+    height: 70%;
+  }
+
+  .button-projects {
+    font-size: 10px;
+  }
+
+  .name {
+    font-size: 25px;
+  }
+
+  .call-box {
+    padding: 1.3em;
+  }
+
+  .meet {
+    font-size: 25px;
+  }
+
+  .answer {
+    font-size: 55%;
+  }
+}
+
+/*300 to 0*/
+
+@media screen and (max-width: 300px) and (min-width: 0) {
+  .bloc {
+    padding: 0.3em;
+  }
+
+  .sentence {
+    font-size: 14px;
+  }
+
+  .button {
+    font-size: 30%;
+  }
+
+  .first {
+    margin-left: 1em;
+    text-align: center;
+  }
+
+  .second {
+    margin-right: 1em;
+    text-align: center;
+  }
+
+  .locate {
+    float: none;
+  }
+
+  .customer {
+    float: none;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .hidden {
+    width: 30%;
+    height: 30%;
+  }
+
+  .say {
+    font-size: 15px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+
+  .meet {
+    font-size: 15px;
+  }
+
+  .answer {
+    font-size: 15%;
+  }
+}
