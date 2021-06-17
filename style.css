@@ -79,6 +79,8 @@ body {
 
 button {
   border: none;
+
+  cursor: pointer;
 }
 
 /*Call-To-Action*/
@@ -148,14 +150,16 @@ section {
 .first {
   margin-left: 2rem;
   margin-right: 2rem;
-  padding-top: 30px;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
   clear: both;
 }
 
 .second {
   margin-left: 2rem;
   margin-right: 2rem;
-  padding-top: 30px;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
   clear: both;
 }
 
