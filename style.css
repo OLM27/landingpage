@@ -264,6 +264,15 @@ p {
   color: white;
 }
 
+/*Skills*/
+
+.circle {
+  padding-top: 5rem;
+}
+
+.type {
+  padding-top: 4rem;
+}
 /*Footer*/
 
 /*Call-to-action*/
